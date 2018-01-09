@@ -1,0 +1,28 @@
+﻿生成启动时间为 2017/8/24 8:37:54。
+     1>项目“E:\BingObjectnessCVPR14\LibLinear\LibLinear.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt blas\daxpy.c blas\ddot.c blas\dnrm2.c blas\dscal.c train.c
+         train.c
+         dscal.c
+         dnrm2.c
+         ddot.c
+         daxpy.c
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt linear.cpp tron.cpp
+         tron.cpp
+         linear.cpp
+         正在生成代码...
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\BingObjectnessCVPR14\Debug\LibLinear.lib" /NOLOGO Debug\daxpy.obj
+         Debug\ddot.obj
+         Debug\dnrm2.obj
+         Debug\dscal.obj
+         Debug\linear.obj
+         Debug\train.obj
+         Debug\tron.obj
+         LibLinear.vcxproj -> E:\BingObjectnessCVPR14\Debug\LibLinear.lib
+     1>已完成生成项目“E:\BingObjectnessCVPR14\LibLinear\LibLinear.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.74

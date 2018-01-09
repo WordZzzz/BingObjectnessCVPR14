@@ -1,0 +1,26 @@
+﻿生成启动时间为 2017/8/25 11:31:00。
+     1>项目“E:\BingObjectnessCVPR14\LibLinear\LibLinear.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TC /errorReport:prompt blas\daxpy.c blas\ddot.c blas\dnrm2.c blas\dscal.c train.c
+         daxpy.c
+         ddot.c
+         dnrm2.c
+         dscal.c
+         train.c
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt linear.cpp tron.cpp
+         linear.cpp
+         tron.cpp
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\BingObjectnessCVPR14\x64\Release\LibLinear.lib" /NOLOGO /MACHINE:X64 /LTCG x64\Release\daxpy.obj
+         x64\Release\ddot.obj
+         x64\Release\dnrm2.obj
+         x64\Release\dscal.obj
+         x64\Release\linear.obj
+         x64\Release\train.obj
+         x64\Release\tron.obj
+         LibLinear.vcxproj -> E:\BingObjectnessCVPR14\x64\Release\LibLinear.lib
+     1>已完成生成项目“E:\BingObjectnessCVPR14\LibLinear\LibLinear.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.29
